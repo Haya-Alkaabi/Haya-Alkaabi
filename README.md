@@ -1,4 +1,4 @@
-# Multithreaded News Client/Server Information System
+# -----ITNE352 Project---S1---2024/2025----
 
 ## Group: B3
 ### Section: 2
