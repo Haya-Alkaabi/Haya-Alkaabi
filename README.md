@@ -59,7 +59,29 @@ To set up and ensure an efficient run of this project on your local machine, fol
     ---
   ## Project Scripts
   ### 1.Server Script (Server.py)
-  Main Functionality: Listens for client connections, handles requests for news articles, and retrieves data from NewsAPI.
-Key Packages: socket, threading, json, newsapi
-Important Functions:
+   ### Main Functionality:
+  Listens for client connections, handles requests for news articles, and retrieves data from NewsAPI.
+ ### Key Packages:
+ socket, threading, json, newsapi
+ ### Important Functions:
 HandleClient(clientSocket, clientAddress): Manages individual client connections and processes requests.
+---
+## Additional concept
+
+
+-------
+## Acknowledgments 
+I would like to extend my heartfelt thanks to Dr. Mohammed Almeer for his exceptional guidance and support during this project. His valuable insights and assistance were essential to the successful completion of this work. I also wish to express my appreciation to NewsAPI for supplying the news data utilized in this project, as their service was vital for collecting the required information.
+
+ ----
+
+## Conclusion
+The Multithreaded News Client/Server Information System project provided valuable experience in network programming, client-server architecture, and API integration. The development of a multithreaded application enhances both functionality and user experience.
+
+---
+
+## Resources
+1-[NewsAPI Documentation](https://newsapi.org/docs)
+2-[Python Socket Programming]
+3-[Threading in Python]()
+#### Course instructor: Dr. Mohammed Almeer
