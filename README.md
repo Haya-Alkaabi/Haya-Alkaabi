@@ -59,13 +59,18 @@ To set up and ensure an efficient run of this project on your local machine, fol
   ## Project Scripts
   ### 1.Server Script (Server.py)
  **Main Functionality:** Listens for client connections, handles requests for news articles, and retrieves data from NewsAPI.
+ 
  **Key Packages:** socket, threading, json, newsapi
+ 
 **Important Functions:** HandleClient(clientSocket, clientAddress): Manages individual client connections and processes requests.
   
 ### 2.Client Script (Client.py)
 **Main Functionality:** Connects to the server, sends requests for news articles, and displays the results.
+
 **Key Packages:** socket
+
 **Important Functions:** The client script prompts the user for input and sends requests accordingly. 
+
 **Example from Server.py**
 def HandleClient(clientSocket, clientAddress):
     ...
