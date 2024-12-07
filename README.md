@@ -79,7 +79,9 @@ In our project, we enhanced the client component by implementing a Graphical Use
 
 #### Functionality Explained
 -1.**Label and Entry:** The GUI consists of a label prompting the user to enter a news query and an entry box where the user types their input.
+
 -2.**Fetch Button:** When the user clicks the "Fetch News" button, the fetch_news method is triggered.
+
 -3.**Socket Communication:** The send_request method establishes a socket connection to the server, sends the user's query, and waits for a response.
 
 ## Acknowledgments 
