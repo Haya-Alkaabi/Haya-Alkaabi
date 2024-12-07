@@ -51,3 +51,13 @@ To set up and ensure an efficient run of this project on your local machine, fol
 2. Run the server using: 
    ```bash
    python Server.py
+   The server will start and listen for incoming connections.
+   Then, Running the Client:
+Open another terminal and navigate to the directory containing Client.py.
+Run the client using:
+bash
+
+Copy
+python Client.py
+Follow the on-screen instructions to interact with the server and choose an option from the menu.
+   
