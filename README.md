@@ -50,8 +50,7 @@ To set up and ensure an efficient run of this project on your local machine, fol
 1. Open a terminal and navigate to the directory containing `Server.py`.
 2. Run the server using: 
    ```bash
-   python Server.py
-   The server will start and listen for incoming connections.
+  python Server.py
    ---
   
   ### Then Running the Client:
