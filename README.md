@@ -45,13 +45,12 @@ To set up and ensure an efficient run of this project on your local machine, fol
 ---
 
 ## How to Run the System
-
-### First, Running the Server:
+**First, Running the Server:**
 1. Open a terminal and navigate to the directory containing `Server.py`.
 2.  Run the server using: `Server.py`.
    ---
   
-  ### Then Running the Client:
+  **Then Running the Client:**
 1. Open another terminal and navigate to the directory containing Client.py.
 2.  Run the client using:`Client.py`.
 3.  Follow the on-screen instructions to interact with the server and choose an option from the menu.
