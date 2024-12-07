@@ -77,7 +77,7 @@ def HandleClient(clientSocket, clientAddress):
 #### Graphical User Interface (GUI)
 In our project, we enhanced the client component by implementing a Graphical User Interface (GUI) using the Tkinter library in Python. This decision aimed to provide users with a more intuitive and user-friendly way to interact with the news client, moving away from command-line interactions.
 
-## Functionality Explained
+### Functionality Explained
 Label and Entry: The GUI consists of a label prompting the user to enter a news query and an entry box where the user types their input.
 **Fetch Button:** When the user clicks the "Fetch News" button, the fetch_news method is triggered.
 **Socket Communication:** The send_request method establishes a socket connection to the server, sends the user's query, and waits for a response.
