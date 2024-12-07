@@ -53,6 +53,12 @@ To set up and ensure an efficient run of this project on your local machine, fol
   
   ### Then Running the Client:
 1. Open another terminal and navigate to the directory containing Client.py.
-2.Run the client using:  ```bash python Client.py
+2.Run the client using:`python Client.py`.
 3.Follow the on-screen instructions to interact with the server and choose an option from the menu.
-   
+    ---
+  ## Project Scripts
+  ### 1.Server Script (Server.py)
+  Main Functionality: Listens for client connections, handles requests for news articles, and retrieves data from NewsAPI.
+Key Packages: socket, threading, json, newsapi
+Important Functions:
+HandleClient(clientSocket, clientAddress): Manages individual client connections and processes requests.
