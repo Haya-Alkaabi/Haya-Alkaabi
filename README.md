@@ -48,7 +48,7 @@ To set up and ensure an efficient run of this project on your local machine, fol
 
 ### First, Running the Server:
 1. Open a terminal and navigate to the directory containing `Server.py`.
-2. Run the server using: `python Server.py`.
+2.  Run the server using: `Server.py`.
    ---
   
   ### Then Running the Client:
