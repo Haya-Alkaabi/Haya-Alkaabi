@@ -65,6 +65,7 @@ To set up and ensure an efficient run of this project on your local machine, fol
  socket, threading, json, newsapi
  ### Important Functions:
 HandleClient(clientSocket, clientAddress): Manages individual client connections and processes requests.
+
 ---
 ## Additional concept
 
@@ -81,7 +82,9 @@ The Multithreaded News Client/Server Information System project provided valuabl
 ---
 
 ## Resources
-1-[NewsAPI Documentation](https://newsapi.org/docs)
-2-[Python Socket Programming](https://docs.python.org/3/library/socket.html)
-3-[Threading in Python](https://docs.python.org/3/library/threading.html)
+### 1-[NewsAPI Documentation](https://newsapi.org/docs)
+### 2-[Python Socket Programming](https://docs.python.org/3/library/socket.html)
+### 3-[Threading in Python](https://docs.python.org/3/library/threading.html)
+
+
 #### Course instructor: Dr. Mohammed Almeer
