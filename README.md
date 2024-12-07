@@ -82,6 +82,6 @@ The Multithreaded News Client/Server Information System project provided valuabl
 
 ## Resources
 1-[NewsAPI Documentation](https://newsapi.org/docs)
-2-[Python Socket Programming]
-3-[Threading in Python]()
+2-[Python Socket Programming](https://docs.python.org/3/library/socket.html)
+3-[Threading in Python](https://docs.python.org/3/library/threading.html)
 #### Course instructor: Dr. Mohammed Almeer
