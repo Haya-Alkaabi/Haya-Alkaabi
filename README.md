@@ -53,8 +53,9 @@ To set up and ensure an efficient run of this project on your local machine, fol
   
   ### Then Running the Client:
 1. Open another terminal and navigate to the directory containing Client.py.
-2.Run the client using:`python Client.py`.
-3.Follow the on-screen instructions to interact with the server and choose an option from the menu.
+2.  Run the client using:`Client.py`.
+3.  Follow the on-screen instructions to interact with the server and choose an option from the menu.
+   
     ---
   ## Project Scripts
   ### 1.Server Script (Server.py)
