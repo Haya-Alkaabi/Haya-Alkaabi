@@ -11,7 +11,7 @@ S1-2024/2025
 
 ## Project Description
 
- This project aims to develop a client-server system for exchanging current news information. It emphasizes critical aspects of client-server architecture, network communication, multithreading, API integration, and coding best practices. The server, implemented in Python, retrieves news updates from NewsAPI.org, manages multiple simultaneous client connections, and responds to various client requests. The client script, also written in Python, establishes a connection to the server to fetch and display news articles and sources. Users can easily navigate through different options to obtain specific news details or exit the application.
+ This project aims to develop a client-server system for exchanging current news information. It emphasizes critical aspects of client-server architecture, network communication, multithreading, API integration, and coding best practices. The server, implemented in Python, retrieves news updates from [NewsAPI.org](https://newsapi.org/), manages multiple simultaneous client connections, and responds to various client requests. The client script, also written in Python, establishes a connection to the server to fetch and display news articles and sources. Users can easily navigate through different options to obtain specific news details or exit the application.
 
 ---
 
@@ -65,7 +65,18 @@ To set up and ensure an efficient run of this project on your local machine, fol
  socket, threading, json, newsapi
  ### Important Functions:
 HandleClient(clientSocket, clientAddress): Manages individual client connections and processes requests.
-
+  
+### 2.Client Script (Client.py)
+### Main Functionality: 
+Connects to the server, sends requests for news articles, and displays the results.
+Key Packages: socket
+ ### Important Functions:
+ The client script prompts the user for input and sends requests accordingly.
+### Example from Server.py
+def HandleClient(clientSocket, clientAddress):
+    ...
+    if option == '1':
+        news = newsapi.get_top_headlines(q=par, page_size=15)
 ---
 ## Additional concept
 
